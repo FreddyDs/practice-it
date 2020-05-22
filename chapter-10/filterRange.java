@@ -18,3 +18,23 @@ public static void filterRange(ArrayList<Integer> array, int min, int max) {
     }
     
 }
+
+/*
+Could also be done this way
+public static void filterRange(ArrayList<Integer> list, int min, int max){
+    
+    for(int i = min; i <= max; i++){
+    
+        for(int j = 0; j < list.size(); j++){
+            
+            if(list.get(j) == i){
+                list.remove(list.get(j));
+                j--;
+            }
+        }
+    
+    }
+
+}
+
+*/
